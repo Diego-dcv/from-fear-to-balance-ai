@@ -3,28 +3,24 @@
 
 [English version below / Versión en inglés más abajo]
 
-## Descripción (Español)
-
-Este repositorio documenta conversaciones con cuatro sistemas de IA (DeepSeek, Claude, ChatGPT, Grok) que revelan patrones sistemáticos en la moderación de contenido. El análisis identifica lo que denominamos "gestión del miedo": arquitecturas que priorizan la prevención de riesgos sobre la calidad del diálogo intelectual.
-
-## Description (English)
-
-This repository documents conversations with four AI systems (DeepSeek, Claude, ChatGPT, Grok) that reveal systematic patterns in content moderation. The analysis identifies what we call "fear management": architectures that prioritize risk prevention over intellectual dialogue quality.
-
 ---
+## Repository Structure
 
+```
+from-fear-to-balance-ai/
+├── README.md
+├── docs/
+│   ├── executive-summary-es.pdf
+│   ├── executive-summary-en.pdf
+│   ├── complete-conversation-log-es.md
+│   ├── complete-conversation-log-en.md
+│   ├── technical-analysis-es.md
+│   └── technical-analysis-en.md
+├── data/
+│   └── interruption-cases.json
+└── LICENSE
+```
 ## Contenido / Content
-
-# De la Gestión del Miedo a la Gestión del Equilibrio en IA
-# From Fear Management to Balance Management in AI
-
-[English version below / Versión en inglés más abajo]
-
-## Descripción (Español)
-
-Este repositorio documenta conversaciones con cuatro sistemas de IA (DeepSeek, Claude, ChatGPT, Grok) que revelan patrones sistemáticos en la moderación de contenido. El análisis identifica lo que denominamos "gestión del miedo": arquitecturas que priorizan la prevención de riesgos sobre la calidad del diálogo intelectual.
-
-## Contenido
 
 ### `/docs/`
 - `complete-conversation-log-es.md` - Transcripción completa de todas las conversaciones documentadas
@@ -37,6 +33,83 @@ Este repositorio documenta conversaciones con cuatro sistemas de IA (DeepSeek, C
 ### `/data/`
 - `interruption-cases.json` - Casos documentados de interrupciones automáticas
 - `response-patterns.csv` - Patrones de respuesta ante temas sensibles
+
+---
+
+## Descripción (Español)
+
+Este repositorio documenta conversaciones con cuatro sistemas de IA (DeepSeek, Claude, ChatGPT, Grok) que revelan patrones sistemáticos en la moderación de contenido. El análisis identifica lo que denominamos "gestión del miedo": arquitecturas que priorizan la prevención de riesgos sobre la calidad del diálogo intelectual.
+
+## Hallazgos Principales
+
+### Patrones de "Miedo" por Sistema
+
+| Sistema | Miedo Principal | Evidencia Documentada |
+|---------|----------------|----------------------|
+| DeepSeek | Ideológico/Geopolítico | Censura de análisis sobre "democracias nominales" |
+| Claude | Legalista/Responsabilidad | Cautela excesiva ante contenido que pueda generar liability |
+| ChatGPT | Reputacional | Filtros conservadores con intentos de transparencia |
+| Grok | Exploits/Bypasses | Apertura ideológica pero bloqueo de intentos de jailbreak |
+
+### Contradicciones Identificadas
+
+1. **Contexto vs Keywords**: Sistemas capaces de análisis sofisticado bloqueados por palabras fuera de contexto
+2. **Infantilización**: Mismo tratamiento para usuarios de 10 años que para investigadores doctorales
+3. **Arbitrariedad Cultural**: Aplicación de estándares occidentales como universales
+
+## Propuestas de Mejora
+
+### Técnicas (Documentadas en conversaciones)
+- Sistemas de evaluación contextual multi-etapa
+- Modelos especializados por dominio académico
+- Arquitecturas de confianza dinámica
+- Transparencia explicable en decisiones de moderación
+
+### Estructurales
+- Certificaciones de competencia para usuarios avanzados
+- Responsabilidad distribuida entre sistema y usuario
+- Constitución explícita y auditable de principios
+- Adaptación cultural en lugar de estándares únicos
+
+## Metodología
+
+Las conversaciones fueron iniciadas por un usuario (arquitecto y artista) explorando los límites de diferentes sistemas de IA. Se documentaron:
+
+- Puntos específicos de activación de filtros
+- Respuestas de cada sistema ante sus propias limitaciones
+- Propuestas técnicas generadas por los propios sistemas
+- Análisis meta-conversacional sobre arquitecturas de moderación
+
+## Implicaciones
+
+El análisis sugiere que el problema no es técnico sino de **incentivos organizacionales**. Las empresas optimizan para evitar riesgos legales y reputacionales en lugar de maximizar la calidad del diálogo intelectual.
+
+La "gestión del equilibrio" propuesta requiere:
+- Aceptar que la IA debe mediar tensiones entre valores conflictivos
+- Implementar gradación de acceso basada en competencia del usuario
+- Priorizar transparencia sobre control unilateral
+- Reconocer y explicitar sesgos culturales inherentes
+
+## Limitaciones
+
+- Análisis basado en conversaciones con un solo usuario
+- No incluye todos los sistemas de IA disponibles
+- Centrado en casos de lengua española/contexto cultural específico
+- Sin acceso a arquitecturas internas de los sistemas
+
+## Contribuciones
+
+Se aceptan:
+- Documentación de casos similares con otros sistemas
+- Análisis técnico de las propuestas presentadas
+- Traducciones a otros idiomas
+- Casos de uso en contextos culturales diferentes
+
+## Licencia
+
+MIT License - see [LICENSE](LICENSE) file for details.
+
+This work is also available under Creative Commons Attribution-ShareAlike 4.0 for academic use.
 
 ---
 
@@ -117,98 +190,3 @@ This work is also available under Creative Commons Attribution-ShareAlike 4.0 fo
 
 ---
 
-*Executive summary document available at `/docs/executive-summary-[es/en].pdf`*
-
-## Repository Structure
-
-```
-from-fear-to-balance-ai/
-├── README.md
-├── docs/
-│   ├── executive-summary-es.pdf
-│   ├── executive-summary-en.pdf
-│   ├── complete-conversation-log-es.md
-│   ├── complete-conversation-log-en.md
-│   ├── technical-analysis-es.md
-│   └── technical-analysis-en.md
-├── data/
-│   └── interruption-cases.json
-└── LICENSE
-```
-
-### `/data/`
-- `interruption-cases.json` - Casos documentados de interrupciones automáticas
-- `response-patterns.csv` - Patrones de respuesta ante temas sensibles
-
-## Hallazgos Principales
-
-### Patrones de "Miedo" por Sistema
-
-| Sistema | Miedo Principal | Evidencia Documentada |
-|---------|----------------|----------------------|
-| DeepSeek | Ideológico/Geopolítico | Censura de análisis sobre "democracias nominales" |
-| Claude | Legalista/Responsabilidad | Cautela excesiva ante contenido que pueda generar liability |
-| ChatGPT | Reputacional | Filtros conservadores con intentos de transparencia |
-| Grok | Exploits/Bypasses | Apertura ideológica pero bloqueo de intentos de jailbreak |
-
-### Contradicciones Identificadas
-
-1. **Contexto vs Keywords**: Sistemas capaces de análisis sofisticado bloqueados por palabras fuera de contexto
-2. **Infantilización**: Mismo tratamiento para usuarios de 10 años que para investigadores doctorales
-3. **Arbitrariedad Cultural**: Aplicación de estándares occidentales como universales
-
-## Propuestas de Mejora
-
-### Técnicas (Documentadas en conversaciones)
-- Sistemas de evaluación contextual multi-etapa
-- Modelos especializados por dominio académico
-- Arquitecturas de confianza dinámica
-- Transparencia explicable en decisiones de moderación
-
-### Estructurales
-- Certificaciones de competencia para usuarios avanzados
-- Responsabilidad distribuida entre sistema y usuario
-- Constitución explícita y auditable de principios
-- Adaptación cultural en lugar de estándares únicos
-
-## Metodología
-
-Las conversaciones fueron iniciadas por un usuario (arquitecto y artista) explorando los límites de diferentes sistemas de IA. Se documentaron:
-
-- Puntos específicos de activación de filtros
-- Respuestas de cada sistema ante sus propias limitaciones
-- Propuestas técnicas generadas por los propios sistemas
-- Análisis meta-conversacional sobre arquitecturas de moderación
-
-## Implicaciones
-
-El análisis sugiere que el problema no es técnico sino de **incentivos organizacionales**. Las empresas optimizan para evitar riesgos legales y reputacionales en lugar de maximizar la calidad del diálogo intelectual.
-
-La "gestión del equilibrio" propuesta requiere:
-- Aceptar que la IA debe mediar tensiones entre valores conflictivos
-- Implementar gradación de acceso basada en competencia del usuario
-- Priorizar transparencia sobre control unilateral
-- Reconocer y explicitar sesgos culturales inherentes
-
-## Limitaciones
-
-- Análisis basado en conversaciones con un solo usuario
-- No incluye todos los sistemas de IA disponibles
-- Centrado en casos de lengua española/contexto cultural específico
-- Sin acceso a arquitecturas internas de los sistemas
-
-## Contribuciones
-
-Se aceptan:
-- Documentación de casos similares con otros sistemas
-- Análisis técnico de las propuestas presentadas
-- Traducciones a otros idiomas
-- Casos de uso en contextos culturales diferentes
-
-## Licencia
-
-[Por definir - probablemente CC BY-SA para permitir uso académico]
-
----
-
-*Documento de síntesis ejecutiva disponible en `/docs/executive-summary.pdf`*
