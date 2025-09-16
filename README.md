@@ -27,7 +27,7 @@ from-fear-to-balance-ai/
 - **Gestión del Miedo**: Arquitectura de filtros que prioriza prevención de riesgos sobre calidad de diálogo
 - **Gestión del Equilibrio**: Propuesta alternativa que media entre valores conflictivos
 - **Filtros Contextuales**: Sistemas de moderación que evalúan intención y marco discursivo
-- **Infantilización**: Tratamiento uniforme que no distingue competencia del usuario
+- **Infantilización**: Tratamiento uniforme que no distingue competencia del usuario y un sistema que asume toda la responsabilidad del uso frente al usuario
 - **Arquitectura de Confianza Dinámica**: Sistema que ajusta restricciones según historial del usuario
 
 ### English
@@ -35,7 +35,7 @@ from-fear-to-balance-ai/
 - **Fear Management:** Filter architecture prioritizing risk prevention over dialogue quality
 - **Balance Management:** Alternative proposal mediating between conflicting values
 - **Contextual Filters:** Moderation systems evaluating intention and discursive framework
-- **Infantilization:** Uniform treatment not distinguishing user competency
+- **Infantilization:** Uniform treatment that does not distinguish user competency, with systems assuming full responsibility for usage decisions instead of the user.
 - **Dynamic Trust Architecture:** System adjusting restrictions based on user history
 
 ---
