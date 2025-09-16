@@ -20,6 +20,26 @@ from-fear-to-balance-ai/
 │   └── interruption-cases.json
 └── LICENSE
 ```
+## Índice de Términos Técnicos / Technical Terms Index
+
+### Español
+
+- **Gestión del Miedo**: Arquitectura de filtros que prioriza prevención de riesgos sobre calidad de diálogo
+- **Gestión del Equilibrio**: Propuesta alternativa que media entre valores conflictivos
+- **Filtros Contextuales**: Sistemas de moderación que evalúan intención y marco discursivo
+- **Infantilización**: Tratamiento uniforme que no distingue competencia del usuario
+- **Arquitectura de Confianza Dinámica**: Sistema que ajusta restricciones según historial del usuario
+
+### English
+
+- **Fear Management:** Filter architecture prioritizing risk prevention over dialogue quality
+- **Balance Management:** Alternative proposal mediating between conflicting values
+- **Contextual Filters:** Moderation systems evaluating intention and discursive framework
+- **Infantilization:** Uniform treatment not distinguishing user competency
+- **Dynamic Trust Architecture:** System adjusting restrictions based on user history
+
+---
+
 ## Contenido / Content
 
 ### `/docs/`
