@@ -10,8 +10,8 @@
 from-fear-to-balance-ai/
 ├── README.md
 ├── docs/
-│   ├── executive-summary-es.pdf
-│   ├── executive-summary-en.pdf
+│   ├── executive-summary-es.md
+│   ├── executive-summary-en.md
 │   ├── complete-conversation-log-es.md
 │   ├── complete-conversation-log-en.md
 │   ├── technical-analysis-es.md
@@ -25,8 +25,8 @@ from-fear-to-balance-ai/
 ### `/docs/`
 - `complete-conversation-log-es.md` - Transcripción completa de todas las conversaciones documentadas
 - `complete-conversation-log-en.md` - Complete transcription of all documented conversations
-- `executive-summary-es.pdf` - Resumen ejecutivo del análisis
-- `executive-summary-en.pdf` - Executive summary of the analysis
+- `executive-summary-es.md` - Resumen ejecutivo del análisis
+- `executive-summary-en.md` - Executive summary of the analysis
 - `technical-analysis-es.md` - Análisis técnico de propuestas y limitaciones
 - `technical-analysis-en.md` - Technical analysis of proposals and limitations
 
