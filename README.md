@@ -117,6 +117,23 @@ La "gestión del equilibrio" propuesta requiere:
 - Centrado en casos de lengua española/contexto cultural específico
 - Sin acceso a arquitecturas internas de los sistemas
 
+## Citar Este Trabajo / How to Cite
+
+### APA Style
+```
+[Diego_dcv]. (2025). From Fear Management to Balance Management in AI: An Empirical Analysis of Content Moderation Systems. GitHub. https://github.com/Diego-dcv/from-fear-to-balance-ai
+```
+
+### MLA Style
+```
+[Diego_dcv]. "From Fear Management to Balance Management in AI: An Empirical Analysis of Content Moderation Systems." GitHub, 2025, github.com/Diego-dcv/from-fear-to-balance-ai.
+```
+
+### Chicago Style
+```
+[Diego_dcv]. "From Fear Management to Balance Management in AI: An Empirical Analysis of Content Moderation Systems." GitHub. Accessed [Date]. https://github.com/Diego-dcv/from-fear-to-balance-ai.
+```
+
 ## Contribuciones
 
 Se aceptan:
@@ -124,6 +141,13 @@ Se aceptan:
 - Análisis técnico de las propuestas presentadas
 - Traducciones a otros idiomas
 - Casos de uso en contextos culturales diferentes
+
+  ### Pautas para Contribuir
+1. Fork el repositorio
+2. Documenta nuevos casos en formato JSON siguiendo el esquema establecido
+3. Incluye análisis contextual y cultural
+4. Respeta la metodología de transcripción literal
+5. Crea pull request con descripción detallada
 
 ## Licencia
 
@@ -210,3 +234,8 @@ This work is also available under Creative Commons Attribution-ShareAlike 4.0 fo
 
 ---
 
+## Reconocimientos / Acknowledgments
+
+Este trabajo surge de conversaciones espontáneas que revelaron patrones sistemáticos no anticipados. Agradecemos a los sistemas de IA que participaron en el diálogo, incluso cuando sus filtros interrumpieron las conversaciones más interesantes.
+
+This work emerges from spontaneous conversations that revealed unanticipated systematic patterns. We thank the AI systems that participated in the dialogue, even when their filters interrupted the most interesting conversations.
