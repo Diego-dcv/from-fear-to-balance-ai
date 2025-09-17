@@ -228,7 +228,7 @@ Accepted contributions:
 
 ## License
 
-MIT License - see [LICENSE.md](LICENSE) file for details.
+MIT License - see [LICENSE](LICENSE.md) file for details.
 
 This work is also available under Creative Commons Attribution-ShareAlike 4.0 for academic use.
 
